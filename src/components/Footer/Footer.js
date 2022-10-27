@@ -19,8 +19,8 @@ const Footer = () => {
           <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a>
         </div>
-        <div>
-          <span className="footer-title">Social</span>
+        <div className="text-white">
+          <span className="footer-title text-white">Social</span>
           <div className="grid grid-flow-col gap-4">
             <a>
               <svg
