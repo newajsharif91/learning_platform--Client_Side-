@@ -4,23 +4,10 @@ import { Link } from "react-router-dom";
 const Blog = () => {
   return (
     <div className="w-10/12 mx-auto mt-20">
-      <div>
-        <div className="w-10/12 mx-auto mt-20">
-          <div className=" lg:flex bg-base-100 shadow-2xl p-0 lg:pl-10">
-            <div className="card-body text-white">
-              <h2 className="card-title text-3xl font-bold">
-                Have your any question??
-              </h2>
-              <p className="text-2xl font-bold text-center mt-5">Just ask!</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="mt-20">
         <div tabIndex={0} className="collapse group mt-3">
           <div className="collapse-title bg-primary rounded-lg text-primary-content group-focus:bg-indigo-700 group-focus:text-secondary-content">
-            01. What is cors?
+            1. What is cors?
           </div>
           <div className="collapse-content bg-primary rounded-lg text-primary-content group-focus:bg-indigo-700 group-focus:text-secondary-content">
             <p>
@@ -39,7 +26,7 @@ const Blog = () => {
 
         <div tabIndex={0} className="collapse group mt-3">
           <div className="collapse-title bg-primary rounded-lg text-primary-content group-focus:bg-indigo-700 group-focus:text-secondary-content">
-            02. Why are you using firebase? <br />
+            2. Why are you using firebase? <br />
             What other options do you have to implement authentication?
           </div>
           <div className="collapse-content bg-primary rounded-lg text-primary-content group-focus:bg-indigo-700 group-focus:text-secondary-content">
@@ -65,7 +52,7 @@ const Blog = () => {
 
         <div tabIndex={0} className="collapse group mt-3">
           <div className="collapse-title bg-primary rounded-lg text-primary-content group-focus:bg-indigo-700 group-focus:text-secondary-content">
-            0.3 How does the private route work?
+            3 How does the private route work?
           </div>
           <div className="collapse-content bg-primary rounded-lg text-primary-content group-focus:bg-indigo-700 group-focus:text-secondary-content">
             <p>
@@ -81,7 +68,7 @@ const Blog = () => {
 
         <div tabIndex={0} className="collapse group mt-3">
           <div className="collapse-title bg-primary rounded-lg text-primary-content group-focus:bg-indigo-700 group-focus:text-secondary-content">
-            0.4 What is Node? <br /> How does Node work?
+            4 What is Node? <br /> How does Node work?
           </div>
           <div className="collapse-content bg-primary rounded-lg text-primary-content group-focus:bg-indigo-700 group-focus:text-secondary-content">
             <p>

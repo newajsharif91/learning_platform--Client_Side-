@@ -12,7 +12,7 @@ const CartDetails = () => {
 
 
   return (
-    <div className="mt-20 ">
+    <div className="mt-20 text-white">
       <div className=" text-center text-5xl mb-10 shadow-xl p-4">
         <h1 className="mb-6">{title}</h1>
         <DownloadPage
@@ -50,17 +50,15 @@ const CartDetails = () => {
 
               <div className="card-actions">
                 <button className="btn btn-primary mt-5">
-                  <Link
-                    kye={id}
-                    to={`/checkout/${id}`}
-                    >Go Premium</Link>
+                  <Link kye={id} to={`/checkout/${id}`}>
+                    Go Premium
+                  </Link>
                 </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
