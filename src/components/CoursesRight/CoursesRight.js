@@ -6,20 +6,25 @@ const CoursesRight = ({ course }) => {
   const { name, url, title, ratings, price } = course;
   return (
     <div>
-      <div className="rounded-xl w-94 bg-base-100 shadow-xl">
+      <div className="rounded-xl w-94 bg-base-100 shadow-xl text-white">
         <figure>
           <img className="h-[250px] rounded-t-xl" src={url} alt="Shoes" />
         </figure>
 
         <div className="card-body my-3">
-          <div className="flex justify-between">
+          <div className="flex justify-between text-white">
             <span className="card-title text-2xl font-bold">{name}</span>
             <span className="font-bold text-2xl">{price}</span>
           </div>
 
           <p className="h-14">{title}</p>
-          <p className="text-lg flex">{ratings} <span className="ml-2 text-yellow-500 pt-1"><FaStar></FaStar></span> </p>
-                  </div>
+          <p className="text-lg flex">
+            {ratings}{" "}
+            <span className="ml-2 text-yellow-500 pt-1">
+              <FaStar></FaStar>
+            </span>{" "}
+          </p>
+        </div>
       </div>
     </div>
   );
