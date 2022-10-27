@@ -17,7 +17,7 @@ const Home = () => {
           <div className="mx-auto shadow-lg">
             <img
               src={
-                "https://leverageedu.com/blog/wp-content/uploads/2021/06/Why-Everyone-Should-Learn-to-Code.png"
+                "https://www.bahamianstudio.com/wp-content/uploads/2020/08/team-designers-working-computer-gif-the-bahamian-studio-branding-graphic-design-flyers-logos-printing-marketing-nassau-bahamas.gif"
               }
               alt=""
             />
