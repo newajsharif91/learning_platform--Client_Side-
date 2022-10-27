@@ -7,7 +7,7 @@ const Blog = () => {
       <div>
         <div className="w-10/12 mx-auto mt-20">
           <div className=" lg:flex bg-base-100 shadow-2xl p-0 lg:pl-10">
-            <div className="card-body">
+            <div className="card-body text-white">
               <h2 className="card-title text-3xl font-bold">
                 Have your any question??
               </h2>
