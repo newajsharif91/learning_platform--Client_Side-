@@ -16,7 +16,7 @@ const Header = () => {
     }
 
     return (
-      <div className="mt-0  bg-opacity-80 bg-stone-200 bg-clip-padding  top-0 w-full blur-filter text-black">
+      <div className="mt-0  bg-opacity-80 bg-cyan-100 bg-clip-padding  top-0 w-full blur-filter text-black">
         <div className="navbar bg-base-500 ">
           <div className=" navbar">
             <Link
