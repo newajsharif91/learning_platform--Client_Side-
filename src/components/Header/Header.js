@@ -23,7 +23,7 @@ const Header = () => {
               to="/"
               className="btn btn-ghost normal-case text-5xl font-bold text-black"
             >
-              Online learning
+              Online-learning
             </Link>
             <div className="dropdown dropdown-end sm:ml-34">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
